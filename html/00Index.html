@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head><title>R: DeepIP: removing internal priming sites using deep learning
+models</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+<h1> DeepIP: removing internal priming sites using deep learning
+models
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;DeepIP&rsquo; version 0.1.0</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../doc/index.html">User guides, package vignettes and other documentation.</a></li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="combineFaFiles.html">combineFaFiles</a></td>
+<td>combineFaFiles combines multiple fa files into one file, allowing adding grams and labels to the sequence title.</td></tr>
+<tr><td style="width: 25%;"><a href="combineFaFiles_fast.html">combineFaFiles_fast</a></td>
+<td>combineFaFiles_fast combines multiple fa files into one file using readLines.</td></tr>
+<tr><td style="width: 25%;"><a href="compareFaFiles.html">compareFaFiles</a></td>
+<td>compareFaFiles counts overlapping of sequence titles between two fa files.</td></tr>
+<tr><td style="width: 25%;"><a href="formatPathFileName.html">formatPathFileName</a></td>
+<td>formatPathFileName converts Windows file name to Linux.</td></tr>
+<tr><td style="width: 25%;"><a href="getArichIPseqs.html">getArichIPseqs</a></td>
+<td>getArichIPseqs gets A-rich internal priming (IP) sequences based on given PA-free regions.</td></tr>
+<tr><td style="width: 25%;"><a href="getArichPAseqs.html">getArichPAseqs</a></td>
+<td>getArichPAseqs gets A-rich pA sequences within 'granges'.</td></tr>
+<tr><td style="width: 25%;"><a href="getArichPAseqsIn3UTR.html">getArichPAseqsIn3UTR</a></td>
+<td>getArichPAseqsIn3UTR gets A-rich pA sequences in 3'UTRs.</td></tr>
+<tr><td style="width: 25%;"><a href="getArichPAseqsInIntron.html">getArichPAseqsInIntron</a></td>
+<td>getArichPAseqsInIntron gets A-rich pA sequences in introns.</td></tr>
+<tr><td style="width: 25%;"><a href="getDLdata.html">getDLdata</a></td>
+<td>getDLdata gets a combined fa file from true and false seq dir.</td></tr>
+<tr><td style="width: 25%;"><a href="getFreePARangesIn3UTR.html">getFreePARangesIn3UTR</a></td>
+<td>getFreePARangesIn3UTR gets genomic regions including 3'UTRs and downstream regions but free of pAs.</td></tr>
+<tr><td style="width: 25%;"><a href="getFreePARangesInNon3UTRs.html">getFreePARangesInNon3UTRs</a></td>
+<td>getFreePARangesInNon3UTRs gets PA-free regions of 5UTR/CDS/intron/intergenic.</td></tr>
+<tr><td style="width: 25%;"><a href="getNseqs.html">getNseqs</a></td>
+<td>getNseqs gets a combined fa file for each split following a given grams distribution.</td></tr>
+<tr><td style="width: 25%;"><a href="getTxdb5UTRs.html">getTxdb5UTRs</a></td>
+<td>getTxdb5UTRs gets 5UTR ranges in TXDB.</td></tr>
+<tr><td style="width: 25%;"><a href="getTxdbCDSs.html">getTxdbCDSs</a></td>
+<td>getTxdbCDSs gets CDS ranges in TXDB.</td></tr>
+<tr><td style="width: 25%;"><a href="getTxdbIntergenics.html">getTxdbIntergenics</a></td>
+<td>getTxdbIntergenics gets intergenic ranges in TXDB.</td></tr>
+<tr><td style="width: 25%;"><a href="getTxdbIntrons.html">getTxdbIntrons</a></td>
+<td>getTxdbIntrons gets intron ranges in TXDB.</td></tr>
+<tr><td style="width: 25%;"><a href="getTxdbUTRs.html">getTxdbUTRs</a></td>
+<td>getTxdbUTRs gets 3UTR ranges in TXDB.</td></tr>
+<tr><td style="width: 25%;"><a href="kcountByPos.html">kcountByPos</a></td>
+<td>kcountByPos counts kgrams at each positions in a fasta file.</td></tr>
+<tr><td style="width: 25%;"><a href="plotFaDeepRes.html">plotFaDeepRes</a></td>
+<td>plotFaDeepRes plots single nucleotide profile and output fasta files for TP/FP/TN/FN.</td></tr>
+<tr><td style="width: 25%;"><a href="readBedFiles2GR.html">readBedFiles2GR</a></td>
+<td>readBedFiles2GR reads BED files of pA sites and removes duplicates.</td></tr>
+<tr><td style="width: 25%;"><a href="resetNonPATitle.html">resetNonPATitle</a></td>
+<td>resetNonPATitle resets sequence title in the fa file to make sure the title reflects the position of the sequence</td></tr>
+<tr><td style="width: 25%;"><a href="sampleNseqs.html">sampleNseqs</a></td>
+<td>sampleNseqs randomly select N seqs from given faFiles and output each file.</td></tr>
+<tr><td style="width: 25%;"><a href="split2TrainTest.html">split2TrainTest</a></td>
+<td>split2TrainTest randomly splits fa files (each gram one file) to two folders (e.g., train and test)</td></tr>
+<tr><td style="width: 25%;"><a href="split2TrainTestByFiles.html">split2TrainTestByFiles</a></td>
+<td>split2TrainTestByFiles splits each of fafiles to dir1 (per1) and dir2 (1-per1), adding label to the title.</td></tr>
+<tr><td style="width: 25%;"><a href="statCntFas.html">statCntFas</a></td>
+<td>statCntFas stats seq number in filename like 'realPA_Arich_seq.ATTATA.fa', 'NOPAS.fa'</td></tr>
+<tr><td style="width: 25%;"><a href="statDeepRes.html">statDeepRes</a></td>
+<td>statDeepRes gets metrics for .csv prediction results from DeepIP_test.py.</td></tr>
+<tr><td style="width: 25%;"><a href="statDeepResByGrams.html">statDeepResByGrams</a></td>
+<td>statDeepResByGrams gets metrics for each gram for a .csv prediction file from DeepIP_test.py.</td></tr>
+<tr><td style="width: 25%;"><a href="testDeepIP.html">testDeepIP</a></td>
+<td>testDeepIP test given input sequences using given trained model</td></tr>
+<tr><td style="width: 25%;"><a href="trainDeepIP.html">trainDeepIP</a></td>
+<td>trainDeepIP trains DeepIP model for given input sequences</td></tr>
+<tr><td style="width: 25%;"><a href="trimPAseqs.html">trimPAseqs</a></td>
+<td>trimPAseqs trims each sequence in fa files with start~stop</td></tr>
+</table>
+</div></body></html>
