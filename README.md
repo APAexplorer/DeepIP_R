@@ -53,9 +53,8 @@ Prepare data for DeepIP model training and testing on Yeast
 This documentation describes how to generate training and test fasta files for training and testing DeepIP models. Here we used two small yeast species – **Saccharomyces cerevisiae** ( brewer’s yeast) and **Schizosaccharomyces pombe** (fission yeast) for demonstration.
 
 
-All output files for this demo can be found [here](https://github.com/APAexplorer/DeepIP_R/tree/main/demo_data_ath).
 
-For complete details, please refer to the vignette ([PDF](https://apaexplorer.github.io/DeepIP_R/doc/DeepIP_data_preparation_yeast.pdf) or [HTML](https://apaexplorer.github.io/DeepIP_R/doc/DeepIP_data_preparation_yeast.Rmd)).
+For complete details, please refer to the vignette ([PDF](https://apaexplorer.github.io/DeepIP_R/doc/DeepIP_data_preparation_yeast.pdf) or [HTML](https://apaexplorer.github.io/DeepIP_R/doc/DeepIP_data_preparation_yeast.html)).
 
 The input yeast polyA sites obtained from PolyAseqTrap for this demo can be found [here](https://github.com/APAexplorer/DeepIP_R/tree/main/DeepIP_data_yeast).
 
