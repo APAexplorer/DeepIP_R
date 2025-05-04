@@ -37,13 +37,14 @@ Application examples
 Prepare data for DeepIP model training and testing
 ---------
 
-This documentation describes how to generate training and test fasta files for deep learning models. We used the model species – **Arabidopsis** for demonstration.
+This documentation explains how to generate training and test FASTA files for deep learning models. For demonstration purposes, we used **Arabidopsis** as the model species.
 
 All output files for this demo can be found here.
 
-Please refer to the vignette (PDF, HTML) for full details.
+For complete details, please refer to the vignette (PDF or HTML).
 
-**Note**, currently we provide pre-trained models for human, mouse, and Arabidopsis species (see **[training model](https://github.com/APAexplorer/DeepIP/tree/main/training_model)**).
+**Note**: We currently provide pre-trained models for **human**, **mouse**, and **Arabidopsis** species (see **[Training Model](https://github.com/APAexplorer/DeepIP/tree/main/training_model)**).
+
 
 
 
