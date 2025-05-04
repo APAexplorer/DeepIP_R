@@ -34,16 +34,33 @@ devtools::install_local("your_path_of_DeepIP-master.zip", build_vignettes = TRUE
 
 Application examples
 =============
-Prepare data for DeepIP model training and testing
+
+**Note**: We currently provide pre-trained models for **human**, **mouse**, and **Arabidopsis** species (see **[Training Model](https://github.com/APAexplorer/DeepIP/tree/main/training_model)**).
+
+
+Prepare data for DeepIP model training and testing on Arabidopsis
 ---------
 
 This documentation explains how to generate training and test FASTA files for deep learning models. For demonstration purposes, we used **Arabidopsis** as the model species.
 
 All output files for this demo can be found [here](https://github.com/APAexplorer/DeepIP_R/tree/main/demo_data_ath).
 
-For complete details, please refer to the vignette ([PDF](https://github.com/APAexplorer/DeepIP_R/blob/main/doc/DeepIP_data_preparation.pdf) or HTML).
+For complete details, please refer to the vignette ([PDF](https://apaexplorer.github.io/DeepIP_R/doc/DeepIP_data_preparation.pdf) or [HTML](https://apaexplorer.github.io/DeepIP_R/doc/DeepIP_data_preparation.html)).
 
-**Note**: We currently provide pre-trained models for **human**, **mouse**, and **Arabidopsis** species (see **[Training Model](https://github.com/APAexplorer/DeepIP/tree/main/training_model)**).
+Prepare data for DeepIP model training and testing on Yeast
+---------
+
+This documentation describes how to generate training and test fasta files for training and testing DeepIP models. Here we used two small yeast species – **Saccharomyces cerevisiae** ( brewer’s yeast) and **Schizosaccharomyces pombe** (fission yeast) for demonstration.
+
+
+All output files for this demo can be found [here](https://github.com/APAexplorer/DeepIP_R/tree/main/demo_data_ath).
+
+For complete details, please refer to the vignette ([PDF](https://apaexplorer.github.io/DeepIP_R/doc/DeepIP_data_preparation_yeast.pdf) or [HTML](https://apaexplorer.github.io/DeepIP_R/doc/DeepIP_data_preparation_yeast.Rmd)).
+
+The input yeast polyA sites obtained from PolyAseqTrap for this demo can be found [here](https://github.com/APAexplorer/DeepIP_R/tree/main/DeepIP_data_yeast).
+
+
+
 
 
 
