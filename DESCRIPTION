@@ -1,7 +1,6 @@
 Package: DeepIP
 Type: Package
-Title: DeepIP: removing internal priming sites using deep learning
-        models
+Title: DeepIP: removing internal priming sites using deep learning models
 Version: 0.1.0
 Author: Xiaohui Wu and Wenbin Ye
 Maintainer: Xiaohui Wu <xhwu@suda.edu.cn>
@@ -10,10 +9,8 @@ License: GPL
 LazyData: TRUE
 Depends: R (>= 3.5.3)
 Date: 2025-03-29
-Imports: GenomicRanges, movAPA, ggplot2, IRanges, Biostrings,
-        GenomicFeatures, seqinr, tidyr
+Imports: GenomicRanges, movAPA, ggplot2, IRanges, Biostrings, GenomicFeatures, seqinr, tidyr
 Suggests: knitr, rmarkdown, caret, forcats, reticulate
 RoxygenNote: 7.3.2
 Encoding: UTF-8
 VignetteBuilder: knitr
-Built: R 4.4.3; ; 2025-04-13 03:46:08 UTC; windows
