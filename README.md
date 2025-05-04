@@ -1,5 +1,5 @@
 # DeepIP (R version) 
-DeepIP is an R package to train and test a deep learning based model for predicting internal priming artifacts from DNA sequences. For complete and detailed information about **DeepIP**, please refer to the [DeepIP repository](https://github.com/APAexplorer/DeepIP)
+Here DeepIP is an R package to train and test a deep learning based model for predicting internal priming artifacts from DNA sequences. For detailed usage of DeepIP in the Python environment, see the [DeepIP repository](https://github.com/APAexplorer/DeepIP).
 
 About
 ====================
